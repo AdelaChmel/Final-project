@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-Header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +24,41 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/*.header {
+  display: flex;
+  justify-content: center;
+}
+STYLE is implemented in the Header.js file
+*/
+
+.nav {
+  background-color: aqua;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  background-color: orange;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav ul li {
+  padding: 10px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer div {
+  text-align: left;
+}
+
+.footer ul {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0;
 }

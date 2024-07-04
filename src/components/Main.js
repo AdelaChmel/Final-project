@@ -1,8 +1,9 @@
+
 function Main() {
      return (
-          <main>
-               This is main section in component
-          </main>
+          <div>
+               This is main section
+          </div>
      )
 }
 
