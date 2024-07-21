@@ -1,8 +1,8 @@
-function BookingPage() {
+import BookingForm from "./BookingForm";
+
+function BookingPage( {availableTimes}) {
      return (
-          <div>
-               This is booking page
-          </div>
+          <BookingForm availableTimes={availableTimes}/>
      )
 }
 export default BookingPage;
