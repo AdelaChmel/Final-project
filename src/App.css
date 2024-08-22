@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -33,14 +39,16 @@ STYLE is implemented in the Header.js file
 
 .nav {
   background-color: aqua;
+  justify-content: center
+  ;
 }
 .nav ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   list-style-type: none;
   background-color: orange;
   padding: 0;
+  margin: auto;
 }
 
 .nav ul li {

@@ -1,7 +1,6 @@
 function Footer() {
      return (
-          <footer className="footer">
-               <img></img>
+          <footer className="footer container w-4/5 mx-auto">
                <div>
                     <h3>Doormat Navigation</h3>
                     <ul>
