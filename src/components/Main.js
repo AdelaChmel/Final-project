@@ -9,7 +9,7 @@ import { useReducer } from "react";
 
 const reducer = (availableTimes, action) => {
      if (action.type === 'initialize') return initializeTime();
-     if (action.type === 'update') return availableTimes.pop();
+     if (action.type === '') return availableTimes.pop();
      return availableTimes;
 }
 

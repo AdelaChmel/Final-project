@@ -14,6 +14,12 @@ module.exports = {
     fontFamily: {
       'heading': ["Markazi Text", "serif"],
       'abc': ["Karla", "sans-serif"],
+      'bold': ["Karla", "sans-serif"],
+    },
+    screens: {
+      'tablet': { 'max': '1023px' },
+      'mobile': {'max': '639px'},
+      
     }
   },
   plugins: [

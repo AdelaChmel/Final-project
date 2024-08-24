@@ -1,27 +1,29 @@
+import { Link } from 'react-router-dom';
+
 function HomePage() {
      return (
       <>
         <div class="bg-green">
-          <div class="container w-3/5 mx-auto flex justify-between relative h-72">
+          <div class="container w-3/5 tablet:w-4/5 mx-auto flex justify-between relative h-72">
              <div class="flex flex-col items-start ">
               <h2 class="font-heading text-yellow text-5xl text-left mt-3">Little Lemon</h2>
               <h3 class="font-heading text-grey text-4xl text-left ">Chicago</h3>
-              <p class="text-grey text-left w-2/5 font-abc">We are a family owned Mediterranenan restaurant, focused on 
+              <p class="text-grey text-left w-3/5 tablet:w-3/5 font-abc">We are a family owned Mediterranenan restaurant, focused on 
                  traditional recipes served with a modern twist.
               </p>
-              <button class="btn rounded-lg bg-yellow mt-3 font-abc">Reserve a Table</button>
+              <button class="btn rounded-lg bg-yellow mt-3 font-abc"><Link to = "/reservation">Reserve a Table</Link></button>
              </div>
-             <img src="restaurantfood.jpg" class="rounded-lg mb-3 translate-y-10 translate-x-3 w-80 h-80"></img>
+             <img src="restaurantfood.jpg" class="rounded-lg mb-3 translate-y-10 translate-x-3 w-80 h-80 tablet:hidden"></img>
           </div>
         </div> 
 
-       <div class="container w-3/5 mx-auto mt-28">
+       <div class="container w-3/5 tablet:w-4/5 mx-auto mt-28 tablet:mt-16">
         <div class="flex justify-between mb-6">
-          <h2 class="font-heading text-5xl">This weeks specials!</h2>
-          <button class="btn rounded-lg bg-yellow font-abc">Online Menu</button>
+          <h2 class="font-heading text-5xl tablet:text-4xl mobile:text-3xl">This weeks specials!</h2>
+          <button class="btn rounded-lg bg-yellow font-abc"><Link to="/">Online Menu</Link></button>
         </div>
-        <div class="container flex gap-5">
-          <div class="flex-1 bg-grey rounded-t-lg">
+        <div class="container flex mobile:flex-wrap gap-5">
+          <div class="flex flex-col basis-1/3 mobile:basis-3/4 bg-grey rounded-t-lg">
              <img src="greek_salad.jpg" class="rounded-t-lg mb-3 h-52"></img>
              <div class="flex flex-col gap-5 px-5">
               <div class="flex justify-between">
@@ -37,7 +39,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div class="flex-1 bg-grey rounded-t-lg">
+          <div class="flex flex-col basis-1/3 mobile:basis-3/4 bg-grey rounded-t-lg">
             <img src="Bruchetta.jpg" class="rounded-t-lg mb-3 h-52"></img>
             <div class="flex flex-col gap-5 px-5">
               <div class="flex justify-between">
@@ -53,7 +55,7 @@ function HomePage() {
                </div>
             </div>
           </div>
-          <div class="flex-1 bg-grey rounded-t-lg">
+          <div class="flex flex-col basis-1/3 mobile:basis-3/4 bg-grey rounded-t-lg">
              <div>
                <img src="lemon_dessert.jpg" class="rounded-t-lg mb-3 h-52"></img>
               </div>
