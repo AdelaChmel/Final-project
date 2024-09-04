@@ -20,7 +20,7 @@ function HomePage() {
        <div class="container w-3/5 tablet:w-4/5 mx-auto mt-28 tablet:mt-16">
         <div class="flex justify-between mb-6">
           <h2 class="font-heading text-5xl tablet:text-4xl mobile:text-3xl">This weeks specials!</h2>
-          <button class="btn rounded-lg bg-yellow font-abc"><Link to="/">Online Menu</Link></button>
+          <button class="btn rounded-lg bg-yellow font-abc"><Link to="/menu">Online Menu</Link></button>
         </div>
         <div class="container flex mobile:flex-wrap gap-5">
           <div class="flex flex-col basis-1/3 mobile:basis-3/4 bg-grey rounded-t-lg">

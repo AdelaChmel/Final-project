@@ -29,7 +29,7 @@ function ReservationForm( {availableTimes}) {
 
      return (
           <>
-          <h2>Book your table now</h2>
+          <div class="hero bg-grey h-3/6  w-3/5 tablet:w-4/5 mx-auto">
           <form
                style={{ display: 'grid', maxWidth: '200px', gap: '20px' }}
                onSubmit={handleSubmit}>
@@ -66,8 +66,9 @@ function ReservationForm( {availableTimes}) {
                     <option value="Anniversary">Anniversary</option>
                </select>
                
-               <button class="btn rounded-lg bg-yellow mt-3 font-abc" type="submit" disabled={!getIsFormValid()}>Make your reservation</button>
-               </form>
+               <button class="btn rounded-lg bg-yellow mt-3 font-abc mb-6" type="submit" disabled={!getIsFormValid()}>Make your reservation</button>
+                    </form>
+                    </div>
                </>
      )
 }

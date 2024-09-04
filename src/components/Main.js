@@ -1,6 +1,7 @@
 import HomePage from './Homepage';
 import Chicago from './Chicago';
 import BookingPage from './BookingPage';
+import Menu from './Menu';
 import {
     BrowserRouter as Router,
     Route, Routes
@@ -41,6 +42,7 @@ function Main() {
           <Routes>
                <Route path="/" element={<HomePage />} />
                <Route path="/about" element={<Chicago />} />
+               <Route path="/menu" element={<Menu />} />
                <Route path="/reservation" element={<BookingPage availableTimes={availableTimes} />} />
           </Routes>
      )
