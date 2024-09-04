@@ -25,7 +25,7 @@ function Nav() {
                          className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                               <li class="font-bold"><Link to="/">Home</Link></li>
                               <li class="font-bold"><Link to ="/about">About</Link></li>
-                              <li class="font-bold"><Link to ="/about">Menu</Link></li>
+                              <li class="font-bold"><Link to ="/menu">Menu</Link></li>
                               <li class="font-bold"><Link to = "/reservation">Reservation</Link></li>
                               <li class="font-bold">Order online</li>
                          </ul>
