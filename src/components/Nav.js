@@ -4,7 +4,7 @@ function Nav() {
      return (
      <>
           <div className="navbar bg-base-100 w-2/5">
-               <div className="navbar-end">
+               <div className="navbar-start">
                     <div className="dropdown dropdown-end">
                          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                          <svg

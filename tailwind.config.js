@@ -18,8 +18,8 @@ module.exports = {
     },
     screens: {
       'tablet': { 'max': '1023px' },
-      'mobile': {'max': '639px'},
-      
+      'mobile': { 'max': '639px' },
+      'lg': '1024px',
     }
   },
   plugins: [
